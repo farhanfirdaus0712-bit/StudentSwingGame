@@ -110,21 +110,15 @@ Main.java
 
 7. Login menggunakan akun yang sudah ada atau lakukan Register terlebih dahulu.
 
----
-
 # Penjelasan Class
 
 ## Main.java
 
 Merupakan titik awal (entry point) dari aplikasi yang menjalankan halaman Login.
 
----
-
 ## DatabaseManager.java
 
 Berfungsi untuk membuat koneksi antara aplikasi Java dengan database MySQL menggunakan JDBC.
-
----
 
 ## Player.java
 
@@ -138,8 +132,6 @@ Merupakan class model yang menyimpan data pemain seperti:
 - draws
 - score
 
----
-
 ## PlayerService.java
 
 Berfungsi untuk seluruh proses yang berhubungan dengan database, seperti:
@@ -148,8 +140,6 @@ Berfungsi untuk seluruh proses yang berhubungan dengan database, seperti:
 - Register akun
 - Update statistik pemain
 - Mengambil data Top 5 pemain
-
----
 
 ## GameLogic.java
 
@@ -162,13 +152,9 @@ Berisi seluruh logika permainan Tic Tac Toe, seperti:
 - Mengecek seri
 - Reset permainan
 
----
-
 ## LoginFrame.java
 
 Merupakan tampilan awal aplikasi yang digunakan untuk Login dan Register akun.
-
----
 
 ## MainMenuFrame.java
 
@@ -179,13 +165,9 @@ Merupakan halaman utama setelah login yang berisi menu:
 - Top 5 Players
 - Logout
 
----
-
 ## GameFrame.java
 
 Merupakan tampilan permainan Tic Tac Toe. Class ini menampilkan papan permainan, menerima input pemain, menjalankan giliran bot, serta memperbarui statistik setelah permainan selesai.
-
----
 
 ## StatisticsFrame.java
 
@@ -197,50 +179,36 @@ Menampilkan statistik pemain yang sedang login, yaitu:
 - Draws
 - Score
 
----
-
 ## TopScorersFrame.java
 
 Menampilkan 5 pemain dengan skor tertinggi yang diambil dari database.
-
----
 
 # Screenshot Tampilan Aplikasi
 
 ## Login
 
-
+![Login](screenshots/login.png)
 
 ## Main Menu
 
 ![Main Menu](screenshots/mainmenu.png)
 
----
-
 ## Halaman Permainan
 
 ![Game](screenshots/game.png)
 
----
-
 ## Statistik Pemain
 
-![Statistics](screenshots/statistics.png)
-
----
+![Statistik](screenshots/statistik.png)
 
 ## Top 5 Players
 
-![Top Players](screenshots/topplayers.png)
-
----
+![Top Player](screenshots/topplayer.png)
 
 # Repository GitHub
 
 https://github.com/farhanfirdaus0712-bit/StudentSwingGame
 
----
-
 # Link Video Demonstrasi YouTube
 
-https://youtube.com/ISI_LINK_VIDEO_KAMU
+[https://youtube.com/ISI_LINK_VIDEO_KAMU](https://youtu.be/sIfQlDo7Vdk)
